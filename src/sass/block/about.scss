@@ -8,12 +8,13 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-.swiper-slide {
   height: 100%;
   min-height: 650px;
   width: 100%;
+}
+
+.swiper-slide {
+
   .about-content {
     position: absolute;
     top: 250px;
@@ -43,7 +44,7 @@
 
       letter-spacing: 1.5px;
       cursor: pointer;
-      font-family: "Poppins";
+      font-family: "Poppins", sans-serif;
       font-style: normal;
       font-weight: 700;
       font-size: 16px;

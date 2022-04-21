@@ -3,8 +3,17 @@
   height: auto;
 }
 
-.about-card {
+.about-card-first {
   background: url("../img/Слайдер.png") no-repeat;
+}
+.about-card-second {
+  background: url("../img/Слайдер.png") no-repeat;
+}
+.about-card-third{
+  background: url("../img/Слайдер.png") no-repeat;
+}
+
+.about-card {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -12,6 +21,8 @@
   min-height: 650px;
   width: 100%;
 }
+
+
 
 .swiper-slide {
 

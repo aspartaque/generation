@@ -15,7 +15,7 @@
   \************************/
 /***/ (function() {
 
-eval("let swiper = new Swiper(\".mySwiper\", {\r\n  pagination: {\r\n    el: \".swiper-pagination\",\r\n  },\r\n});\r\n\r\nlet swiper1 = new Swiper(\".mySwiper1\", {\r\n  pagination: {\r\n    el: \".swiper-pagination1\",\r\n    type: \"progressbar\",\r\n  },\r\n  spaceBetween: 20,\r\n  speed: 100,\r\n  slidesPerView: 4,\r\n});\n\n//# sourceURL=webpack://gulp-settings/./src/js/main.js?");
+eval("let swiper = new Swiper(\".mySwiper\", {\r\n  pagination: {\r\n    el: \".swiper-pagination\",\r\n  },\r\n});\r\n\r\nlet swiper1 = new Swiper(\".mySwiper1\", {\r\n  pagination: {\r\n    el: \".swiper-pagination1\",\r\n    type: \"progressbar\",\r\n  },\r\n  spaceBetween: 20,\r\n  speed: 100,\r\n  slidesPerView: 4,\r\n});\r\n\r\n// \n\n//# sourceURL=webpack://gulp-settings/./src/js/main.js?");
 
 /***/ })
 

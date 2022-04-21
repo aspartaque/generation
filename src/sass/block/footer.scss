@@ -1,9 +1,5 @@
-.title {
-  text-transform: uppercase;
 
-  @include ph {
-      font-size: 14px;
-      color: antiquewhite;
-   }
+.footer {
+   height: 100vh;
+   margin-top: 72px;
 }
-

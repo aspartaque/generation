@@ -1,5 +1,5 @@
 .activity {
-  padding-top: 72px;
+  padding: 72px 0 140px 0;
 }
 
 .activity-content {
@@ -70,14 +70,6 @@
       line-height: 130%;
       color: #d1764f;
       margin-top: 30px;
-      .arrow {
-        border: solid #d1764f;
-        border-width: 0 2px 2px 0;
-        display: inline-block;
-        padding: 4px;
-        transform: rotate(-45deg);
-        -webkit-transform: rotate(-45deg);
-      }
     }
   }
 }

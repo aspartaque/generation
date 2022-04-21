@@ -4,7 +4,7 @@
 }
 
 @font-face {
-  font-family: 'Inter';
+  font-family: 'Inter-Regular';
   src: url("./fonts/Inter-Regular.ttf") format('truetype');
 }
 
@@ -65,11 +65,21 @@ body {
   }
 }
 
+.arrow {
+  border: solid #d1764f;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
 @import "block/header.scss";
 
 @import "block/about.scss";
 
 @import "block/activity.scss";
 
+@import "block/news.scss";
 
 @import "block/footer.scss";

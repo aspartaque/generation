@@ -9,4 +9,7 @@ let swiper1 = new Swiper(".mySwiper1", {
     el: ".swiper-pagination1",
     type: "progressbar",
   },
+  spaceBetween: 20,
+  speed: 100,
+  slidesPerView: 4,
 });

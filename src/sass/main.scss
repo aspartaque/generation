@@ -27,6 +27,7 @@ body {
   font-family: 'Poppins', sans-serif;
   width: 100%;
   height: auto;
+  overflow-x: hidden;
 
   // @include ph {
   //     background-color: rgb(141, 138, 138);
@@ -81,5 +82,7 @@ body {
 @import "block/activity.scss";
 
 @import "block/news.scss";
+
+@import "block/map.scss";
 
 @import "block/footer.scss";

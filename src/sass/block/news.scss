@@ -40,8 +40,10 @@ $white: white;
           min-width: 305px;
           width: 100%;
           height: auto;
+          max-height: 216px;
           border: 1px solid #d6e9ec;
           border-radius: 6px;
+          object-fit: cover;
         }
 
         .news-card__title {

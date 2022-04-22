@@ -138,20 +138,11 @@
     ul {
       display: flex;
       gap: 24px;
-      .vk {
-        background: url(../img/vk-icon.svg) no-repeat;
-        background-size: contain;
-        padding: 16px;
-      }
-      .odnoklassniki {
-        background: url(../img/odnoklassini.svg) no-repeat;
-        background-size: contain;
-        padding: 16px;
-      }
-      .telegram {
-        background: url(../img/telega.svg) no-repeat;
-        background-size: contain;
-        padding: 16px;
+      a {
+        img {
+          width: 32px;
+          height: 32px;
+        }
       }
     }
   }

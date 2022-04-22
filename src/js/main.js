@@ -29,9 +29,8 @@ var swiper2 = new Swiper(".mySwiper2", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  initialSlide: 1
+  initialSlide: 1,
 });
-
 
 // map with dots
 var isActive = 0;
@@ -82,8 +81,32 @@ function ready() {
   function draw(t) {
     let idx = isLoading;
     requestAnimationFrame(draw);
-    setAround((t / 50) % 100, idx);
+    setAround((t / 40) % 100, idx);
   }
 }
 
 document.addEventListener("DOMContentLoaded", ready);
+
+let index = [0, 1, 2, 3, 4, 5, 6]
+var dots = document.querySelectorAll(".dota");
+var infoCards = document.querySelectorAll("[data-info-id]");
+
+const daty = document.querySelectorAll(`[data-info-id='${index}']`);
+const dotas = document.querySelectorAll(`[data-dota='${index}']`);
+let circle = document.querySelectorAll('[data-id]');
+
+let i = 0;
+
+dots.forEach((el) => {
+  el.addEventListener('click', () => {
+    let idx = el.dataset.dota;
+    showInfo(idx)
+  });
+});
+
+function showInfo(idx) {
+  removeClass();
+  let elem = document.querySelector(`[data-info-id='${idx}']`);
+  console.log(elem);
+  elem.classList.add('show');
+}

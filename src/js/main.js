@@ -14,8 +14,26 @@ let swiper1 = new Swiper(".mySwiper1", {
   slidesPerView: 4,
 });
 
-// map with dots
+var swiper2 = new Swiper(".mySwiper2", {
+  effect: "coverflow",
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: "3",
+  coverflowEffect: {
+    rotate: 100,
+    stretch: -50,
+    depth: 100,
+    modifier: 0,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  initialSlide: 1
+});
 
+
+// map with dots
 var isActive = 0;
 var isLoading = 1;
 const count = document.querySelectorAll("[data-id]");
